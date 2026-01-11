@@ -1,0 +1,317 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sens-serif;
+}
+
+body {
+    background-color: black;
+}
+
+
+
+
+.main {
+    background-image: url("netflixnew.png");
+    height: 70vh;
+    background-repeat: no-repeat;
+    /* object-position: right; */
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    background-position: center center;
+    background-size: max (1200px, 100vw);
+    /* /* background-size: 100vw;  */
+    /* object-fit: contain; */
+    /* object-fit: cover; */
+
+    /* width: 12px; */
+}
+
+.main .box {
+    height: 70vh;
+    width: 100%;
+    opacity: 0.69;
+    position: absolute;
+    background-color: black;
+    top: 0;
+
+}
+
+nav {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    max-width: 60vw;
+    margin: auto;
+    justify-content: space-between;
+    height: 62px;
+}
+
+nav img {
+    color: red;
+    width: 130px;
+    position: relative;
+    z-index: 10;
+}
+
+button {
+    position: relative;
+    z-index: 10;
+
+}
+
+.hero {
+    height: calc(100% - 62px);
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    font-family: 'Martel sans', ' Sans-serif', Calibri, 'Trebuchet MS', sans-serif;
+    gap: 20px;
+    padding: 0 30px;
+    overflow: hidden;
+
+}
+
+.hero> :nth-child(1) {
+    text-align: center;
+    /* font-weight: 1000; */
+    font-weight: bolder;
+    font-family: 'Poppins', sans-serif;
+    font-size: 48px;
+
+}
+
+.hero> :nth-child(2) {
+    text-align: center;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.hero> :nth-child(3) {
+    text-align: center;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.sepration {
+    height: 7px;
+    background-color: rgb(46, 44, 44);
+    position: relative;
+    z-index: 20;
+
+}
+
+.hero-btn {
+    display: flex;
+    /* flex-direction: co; */
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+
+}
+
+.btn {
+    padding: 3px 8px;
+    color: white;
+    cursor: pointer;
+    font-weight: 400;
+    font-weight: bold;
+    background-color: rgba(248, 243, 243, 0.0021);
+    border: 1px solid white;
+    border-radius: 4px;
+}
+
+.btn-red {
+    background-color: red;
+    color: white;
+    padding: 3px 24px;
+    font-size: 20px;
+    border-radius: 4px;
+    font-weight: 400;
+}
+
+.btn-red-sm {
+    background-color: red;
+    color: white;
+
+}
+
+.main input {
+    padding: 7px 101px 8px 14px;
+    font-size: 12px;
+    color: white;
+    border-radius: 4px;
+    background-color: rgba(23, 23, 23, 0.9);
+    font-weight: 900;
+    border: 1px solid rgba(23, 23, 23, 0.5);
+
+
+}
+
+.first {
+    display: flex;
+    justify-content: center;
+    max-width: 70vw;
+    margin: auto;
+    color: white;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.secimg img {
+    /* width: 33vw; */
+    width: 305px;
+
+}
+
+
+section.first>div :nth-child(1) {
+    font-size: 48px;
+    font-weight: bolder;
+
+}
+
+section.first>div :nth-child(2) {
+    font-size: 24px;
+    color: white;
+
+
+}
+
+section.first>div {
+    display: flex;
+    flex-direction: column;
+}
+
+.faqbox {
+    display: flex;
+    /* flex-direction: column; */
+    background-color: #2d2d2d;
+    padding: 24px;
+    max-width: 60vw;
+    margin: 34px auto;
+    justify-content: space-between;
+    cursor: pointer;
+    font-size: 24px;
+    transition: all;
+    color: white;
+}
+
+.faq {
+    color: white;
+    background-color: black;
+    padding: 34px;
+}
+
+.faq h2 {
+    text-align: center;
+    font-size: 48px;
+
+}
+
+.faqbox:hover {
+    background-color: gray;
+    transition: all 1s ease-out;
+}
+
+footer {
+    color: white;
+    max-width: 60vw;
+    margin: auto;
+    padding: 34px;
+
+}
+
+.footer a {
+    /* text-decoration: none; */
+    color: white;
+    font-size: 15px;
+}
+
+footer .Questions {
+
+    padding: 34px 0;
+}
+
+.footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    color: white;
+
+}
+
+.footer-item {
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
+}
+
+@media screen and (max-width: 1300px) {
+    .footer {
+
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        /* color: white; */
+        grid: 25px;
+    }
+
+
+
+}
+
+@media screen and (max-width: 1300px) {
+
+    .first {
+        flex-wrap: wrap;
+    }
+
+    .secimg img {
+        /* width: 33vw; */
+        width: 305px;
+    }
+
+    .hero> :nth-child(1) {
+
+        font-size: 32px;
+    }
+
+    .hero> :nth-child(2) {
+
+        font-size: 18px;
+    }
+
+    .hero> :nth-child(3) {
+
+        font-size: 18px;
+    }
+
+    na {
+        max-width: 90vw;
+    }
+
+    .hero-btn {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 16px;
+
+    }
+
+    .faq h2 {
+        font-size: 32px;
+        text-align: center;
+    }
+
+    footer {
+        max-width: 90vw;
+    }
+    .footer-item{
+        align-items: center;
+    }
+}
